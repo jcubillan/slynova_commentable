@@ -1,3 +1,22 @@
+"repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "slynova/laravel-commentable1",
+            "version": "dev-master",
+            "source": {
+                "url": "https://github.com/jcubillan/slynova_commentable.git",
+                "type": "git",
+                "reference": "master"
+            },
+            "autoload": {
+				"psr-4": {
+					"Slynova\\Commentable\\": "src/Commentable"
+                }
+            }
+        }
+    }
+]
 {
     "name": "slynova/laravel-commentable1",
 	"version": "1.0.0",
