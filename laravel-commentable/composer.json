@@ -1,19 +1,46 @@
+{
 "repositories": [
     {
         "type": "package",
         "package": {
             "name": "slynova/laravel-commentable1",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
-                "url": "https://github.com/jcubillan/slynova_commentable.git",
+                "url": "git://github.com/jcubillan/slynova_commentable.git",
                 "type": "git",
                 "reference": "master"
             },
             "autoload": {
-				"psr-4": {
-					"Slynova\\Commentable\\": "src/Commentable"
+                "psr-0" : {
+                    "Weaverryan\\DangerZone" : "src"
                 }
             }
         }
     }
-]
+],
+    "name": "slynova/laravel-commentable1",
+    "description": "Polymorphic threaded comments for Laravel",
+    "keywords": ["laravel", "commentable", "comment", "threaded", "nested set"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/jcubillan/laravel-commentable/issues",
+        "source": "https://github.com/jcubillan/laravel-commentable"
+    },
+    "authors": [
+        {
+            "name": "Romain Lanz",
+            "homepage": "https://github.com/RomainLanz",
+            "email": "romain.lanz@slynova.ch",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "baum/baum": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Slynova\\Commentable\\": "src/Commentable"
+        }
+    }
+}
