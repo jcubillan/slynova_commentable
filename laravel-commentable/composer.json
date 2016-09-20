@@ -1,11 +1,12 @@
 {
-    "name": "slynova/laravel-commentable",
+    "name": "slynova/laravel-commentable1",
+	"version": "1.0.0",
     "description": "Polymorphic threaded comments for Laravel",
     "keywords": ["laravel", "commentable", "comment", "threaded", "nested set"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/slynova-org/laravel-commentable/issues",
-        "source": "https://github.com/slynova-org/laravel-commentable"
+        "issues": "https://github.com/jcubillan/slynova_commentable.git",
+        "source": "https://github.com/jcubillan/slynova_commentable.git"
     },
     "authors": [
         {
